@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage"
+             BackgroundColor="Black"
+             >
+    <StackLayout>
+        <Label x:Name="lblOutput"
+           FontSize="Large"
+           TextColor="White"
+           Text="&quot;the dreams you come in with may not be the dreams you leave with...  &#x000A;But hey, they still rock!&quot;"
+           VerticalOptions="Start"
+           HorizontalOptions="Center" />
+        <Label x:Name="lblSource"
+           FontSize="Medium"
+           FontAttributes="Italic"
+           TextColor="White"
+           Text="- Rock of Ages"
+           HorizontalOptions="Fill"
+           HorizontalTextAlignment="End" />
+    </StackLayout>
+
+
+</ContentPage>
