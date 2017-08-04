@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TempConvert"
+             x:Class="TempConvert.MainPage">
+    
+    <StackLayout>
+        <Label 
+            Text="Temp Convertor"
+            FontSize="Large"
+            />
+        <Label
+            Text="Enter a temperature to convert"
+            FontSize="Medium"
+            />
+        <Entry
+            x:Name="entryTemperature"
+            Placeholder="Temperature"
+            Keyboard="Numeric"
+            />
+        <Picker Title="Conversion Type"
+                SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Celsius to Fahrenheit</x:String>
+                <x:String>Fahrenheit to Celsius</x:String>
+            </Picker.Items>
+        </Picker>
+        <Button Text="Convert"
+                x:Name="btnConvert"
+                Clicked="btnConvert_Clicked"
+                />
+        <Label x:Name="lblOutput"
+               Text=""
+               />
+
+
+    </StackLayout>
+
+</ContentPage>
