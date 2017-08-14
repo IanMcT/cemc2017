@@ -1,4 +1,4 @@
-﻿namespace SampleWindowsForm
+namespace SampleWindowsForm
 {
     partial class Form1
     {
@@ -28,27 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.btnRunLoop = new System.Windows.Forms.Button();
+            this.nudNumberOfTimes = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumberOfTimes)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRunLoop
             // 
-            this.button1.Location = new System.Drawing.Point(13, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRunLoop.Location = new System.Drawing.Point(13, 23);
+            this.btnRunLoop.Name = "btnRunLoop";
+            this.btnRunLoop.Size = new System.Drawing.Size(75, 23);
+            this.btnRunLoop.TabIndex = 0;
+            this.btnRunLoop.Text = "button1";
+            this.btnRunLoop.UseVisualStyleBackColor = true;
+            this.btnRunLoop.Click += new System.EventHandler(this.btnRunLoop_Click);
             // 
-            // numericUpDown1
+            // nudNumberOfTimes
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(24, 67);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 1;
+            this.nudNumberOfTimes.Location = new System.Drawing.Point(24, 67);
+            this.nudNumberOfTimes.Name = "nudNumberOfTimes";
+            this.nudNumberOfTimes.Size = new System.Drawing.Size(120, 20);
+            this.nudNumberOfTimes.TabIndex = 1;
             // 
             // label1
             // 
@@ -65,11 +66,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.nudNumberOfTimes);
+            this.Controls.Add(this.btnRunLoop);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumberOfTimes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,8 +78,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button btnRunLoop;
+        private System.Windows.Forms.NumericUpDown nudNumberOfTimes;
         private System.Windows.Forms.Label label1;
     }
 }
