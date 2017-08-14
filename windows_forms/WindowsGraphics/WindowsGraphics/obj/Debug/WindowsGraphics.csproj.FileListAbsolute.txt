@@ -1,0 +1,9 @@
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\bin\Debug\WindowsGraphics.exe.config
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\bin\Debug\WindowsGraphics.exe
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\bin\Debug\WindowsGraphics.pdb
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.csprojResolveAssemblyReference.cache
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.Form1.resources
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.Properties.Resources.resources
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.csproj.GenerateResource.Cache
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.exe
+C:\Users\Hoya Robotics Admin\Documents\WindowsGraphics\WindowsGraphics\obj\Debug\WindowsGraphics.pdb
